@@ -1,0 +1,20 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.otter.otter
+copyright: 'Copyright 2020, Otter'
+nsis:
+  oneClick: false
+  perMachine: true
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: true
+  createDesktopShortcut: true
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  uninstallDisplayName: Uninstall Otter
+win:
+  target: nsis
+  icon: build/icon.ico
+  publisherName: Vikas Sharma
+electronVersion: 8.2.5

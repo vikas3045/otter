@@ -11,9 +11,9 @@
   "author": "Vikas Sharma",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^18.3.7",
-    "electron-builder": "^22.6.0",
-    "nodemon": "^2.0.3"
+    "electron": "^22.3.25",
+    "electron-builder": "^24.9.1",
+    "nodemon": "^3.0.2"
   },
   "dependencies": {
     "electron-window-state": "^5.0.3"
